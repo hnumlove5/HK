@@ -132,7 +132,7 @@ class LineAPI {
          reqx.password = rsaCrypto.credentials;
          reqx.keepLoggedIn = true;
          reqx.accessLocation = this.config.ip;
-         reqx.systemName = 'Js-Kicker';
+         reqx.systemName = 'ᴮʸ☃ᵀᴱᴬᴹ ᴬᵁᵀᴼ ᴮᴼᵀ';
          reqx.e2eeVersion = 0;
          try{
            this._client.loginZ(reqx,
@@ -146,7 +146,7 @@ class LineAPI {
                          this.setTHttpClient(this.options);
              this._authConn();
              this._client.pinCode = success.pinCode;
-                     console.info("\n\n=============================\nEnter This Pincode => "+success.pinCode+"\nto your mobile phone in 2 minutes\n=============================");
+                     console.info("\n\n=============================\nEnter This Pincode => "+success.pinCode+"\nᴮʸ☃ᵀᴱᴬᴹ ᴬᵁᵀᴼ ᴮᴼᵀ กดล็อคอินภายใน 2 นาที\n=============================");
                      this._checkLoginResultType(success.type, success);
              reqxy.type = 1;
                        this._loginWithVerifier((verifierResult) => {
