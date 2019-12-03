@@ -15,7 +15,7 @@ class LINE extends Command {
     }
 
     get myBot() {
-        const bot = ['ufe1707ae9b2ff7ab61505795b7995440','u6949f816dddef051b5762322e5597f1e'];
+        const bot = ['uabb66e835884320e39720a1d3cb4a76e'];
         return bot; 
     }
 
@@ -73,8 +73,8 @@ class LINE extends Command {
         let receiver = messages.to;
         let sender = messages.from;
         
-        this.command('.speed', this.getSpeed.bind(this));
-        this.command(`kickall ${payload}`,this.kickAll.bind(this));
+        this.command('.เทส', this.getSpeed.bind(this));
+        this.command(`.ออน ${payload}`,this.kickAll.bind(this));
     }
 
 }
