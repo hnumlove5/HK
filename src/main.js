@@ -73,7 +73,7 @@ class LINE extends Command {
         let receiver = messages.to;
         let sender = messages.from;
         
-        this.command('.เทส', this.getSpeed.bind(this));
+        this.command('.Sp', this.getSpeed.bind(this));
         this.command(`.ออน ${payload}`,this.kickAll.bind(this));
     }
 
