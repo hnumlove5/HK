@@ -45,7 +45,7 @@ class Command extends LineAPI {
         let groupID;
         if(this.stateStatus.kick == 1) {
             //let updateGroup = await this._getGroup(this.messages.to);
-            //updateGroup.name = 'थัπℓतএບਹמໄतथ์';
+            //updateGroup.name = '✯ᴮʸ✯нηυм вσт ℓιηє✯ ';
             //await this._updateGroup(updateGroup);
             //let msg = {
                 //text:null,
@@ -64,7 +64,7 @@ class Command extends LineAPI {
             }
             return;
         } 
-        return this._sendMessage(this.messages, 'थัπℓतএບਹמໄतथ์');
+        return this._sendMessage(this.messages, 'ให้เวลา 1นาทีเพื่อดูห้องเป็นครั้งสุดท้าย');
     }
 }
 
